@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature : "
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40dp"
+        android:layout_marginTop="90dp"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity : "
+        android:textSize="40dp"
+        android:layout_marginTop="170dp"/>
+    <TextView
+        android:id="@+id/hum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40dp"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Light : "
+        android:textSize="40dp"
+        android:layout_marginTop="290dp"/>
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40dp"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.electroniclinic.com"
+        android:textSize="30dp"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>
